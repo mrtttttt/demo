@@ -1,0 +1,238 @@
+/*
+* @Author: 默然
+* @Date:   2017-07-21 09:18:34
+* @Last Modified by:   默然
+* @Last Modified time: 2017-07-21 17:10:34
+*/
+:root{
+	background: #f5f6fa;
+}
+main{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.title{
+	width: 100%;
+	height: 0.82rem;
+}
+.title{
+	line-height: 0.82rem;
+	font-size: 0.22rem;
+	color: #494747;
+}
+.title a{
+	color: #494747;
+}
+/* 老师分类开始 */
+.teacher{
+	width: 100%;
+	height: 0.8rem;
+}
+.teacher main{
+	border: 0.02rem solid #01b5ff;
+	border-radius: 0.06rem;
+	box-sizing: border-box;
+}
+.teach-1{
+	width: 33.333333%;
+	height: 100%;
+	border-radius: 0 0.06rem 0.06rem 0;
+	background: #01b5ff;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #fff;
+	float: left;
+	font-size: 0.26rem;
+	position: relative;
+}
+.teach-2{
+	background: none;
+	color: #000;
+}
+.teach-sanjiao{
+	width: 0;
+	height: 0;
+	border-top: 0.22rem solid #01b5ff;
+	border-left: 0.22rem solid transparent;
+	border-right: 0.22rem solid transparent;
+	border-bottom: 0.22rem solid transparent;
+	position: absolute;
+	bottom: -0.36rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* 老师分类结束 */
+/* 金牌师资开始 */
+.shizi-info{
+	width: 100%;
+	height: 2.7rem;
+	margin-top: 0.21rem;
+}
+.shizi-info main{
+	background: #fff;
+	overflow: hidden;
+}
+.shizi-xx{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.shizi-img{
+	width: 2.3rem;
+	height: 2.3rem;
+	border-radius: 0.04rem;
+	float: left;
+	margin: 0.2rem;
+	background: #eee;
+}
+.shizi-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.shizi-intr{
+	margin-top: 0.54rem;
+	width: 4rem;
+	float: left;
+}
+.shizi-intr span:nth-of-type(1){
+	width: 1.7rem;
+	border-bottom: 0.01rem dashed #999;
+	padding-bottom: 0.05rem;
+	color: #111;
+	display: block;
+	height: 0.3rem;
+	float: left;
+	line-height: 0.3rem;
+	font-size: 0.26rem;
+}
+.shizi-intr span:nth-of-type(2){
+	color: #ff9300;
+	display: block;
+	float: right;
+	height: 0.24rem;
+	font-size: 0.24rem;
+}
+.shizi-intr span:nth-of-type(3){
+	color: #01b5ff;
+	clear: both;
+	display: block;
+	float: left;
+	line-height: 0.6rem;
+	font-size: 0.24rem;
+}
+.shizi-intr span:last-of-type{
+	color: #666;
+	width: 3.33rem;
+	line-height: 0.3rem;
+	font-size: 0.24rem;
+	float: left;
+
+}
+.shizi-info2{
+	margin-bottom: 0.2rem;
+}
+/* 金牌师资结束 */
+
+/* 换页开始 */
+.huanye{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	font-size: 0.3rem;
+}
+.huanye-left{
+	display: block;
+	width: 0.56rem;
+	height: 0.29rem;
+	border: 0.01rem solid #999;
+	border-radius: 0.1rem;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.3rem;
+}
+.huanye-left div,input{
+	width: 0.48rem;
+	height: 0.23rem;
+	border: 0.01rem solid #333;
+	border-radius: 0.1rem;
+	margin:0.02rem auto;
+	line-height: 0.23rem;
+	text-align: center;
+	color: #383838;
+	font-size: 0.3rem;
+}
+.huanye-left input{
+	outline: none;
+	text-align: start;
+	margin-left: 0.03rem;
+	padding-left: 0.05rem;
+	box-sizing: border-box;
+	font-size: 0.2rem;
+	display: block;
+}
+.huanye1{
+	width: 0.32rem;
+	height: 0.32rem;
+	border-radius: 50%;
+	margin-left: 0.05rem;
+}
+.huanye1 div{
+	width: 0.24rem;
+	height: 0.24rem;
+	border-radius: 50%;
+	margin: 0.025rem auto;
+	font-size: 0.2rem;
+}
+.huanye2{
+	background: #01b5ff;
+}
+.huanye2 div{
+	border: 0.01rem solid #fff;
+	color: #fff;
+}
+.huanye-right{
+	margin-left: 0.05rem;
+}
+.huanye-left2{
+	margin-left: 0.06rem;
+	margin-right: 0.06rem;
+}
+.huanye>div{
+	height: 100%;
+	line-height: 0.7rem;
+	float: left;
+	font-size: 0.2rem;
+	margin-left: 0.05rem;	
+}
+.huanye div:nth-of-type(2){
+	margin-left: 0.2rem;
+}
+.huanye div:nth-of-type(3){
+	line-height: normal;
+	height: 0.29rem;
+}
+.huanye div:nth-of-type(4){
+	margin-left: 0rem;
+}
+.huanye a:last-child{
+	margin-left: 0.1rem;
+}
+/* 换页结束 */
+/* footer开始 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+}
+.join-text{
+	width: 100%;
+	text-align: center;
+	color: #666;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+}
+/* footer结束 

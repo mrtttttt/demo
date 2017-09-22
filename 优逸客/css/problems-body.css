@@ -1,0 +1,230 @@
+/*
+* @Author: 默然
+* @Date:   2017-07-23 00:12:26
+* @Last Modified by:   默然
+* @Last Modified time: 2017-07-23 13:15:15
+*/
+:root{
+	background: #f5f6fa;
+}
+main{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.title{
+	width: 100%;
+	height: 0.82rem;
+}
+.title{
+	line-height: 0.82rem;
+	font-size: 0.22rem;
+	color: #494747;
+}
+.title a{
+	color: #494747;
+}
+
+/* 问题开始 */
+/* 概述开始 */
+.gaishu{
+	width: 100%;
+	height: 14.84rem;
+	margin-bottom: 0.2rem;
+}
+.gaishu main{
+	background: #fff;
+}
+.shu-box{
+	width: 0.42rem;
+	height: 0.68rem;
+	float: left;
+}
+.shu{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin: 0.32rem auto 0;
+}
+.gaishu-box{
+	width: 6.4rem;
+	height: 7.25rem;
+	float:left;
+}
+.gaishu-title{
+	width: 100%;
+	height: 0.68rem;
+	line-height: 0.88rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #444444;
+	border-bottom: 0.01rem dashed #999;
+	box-sizing: border-box;
+}
+.gaishu-body{
+	font-size: 0.24rem;
+	color: #666;
+	line-height: 0.4rem;
+}
+.gaishu-body p{
+	margin-top: 0.1rem;
+}
+
+.hot-img{
+	width: 100%;
+	clear: both;
+	height: 3.62rem;
+	background: #ccc;
+}
+.gaishu-box2{
+	height: 2.87rem;
+	box-sizing: border-box;
+	margin-left: 0.42rem;
+	margin-top: 0.2rem;
+	border-bottom: 0.01rem dashed #999;
+}
+
+.hot-pinglun{
+	width: 100%;
+	height: 0.9rem;
+	clear: both;
+	background: #fff;
+	line-height: 0.9rem;
+	font-size: 0.22rem;
+	font-weight: bold;
+}
+.hot-pinglun p{
+	float: left;
+	margin-left: 0.2rem;
+}
+.hot-pl1{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	float: left;
+	margin-left: 0.2rem;
+}
+.hot-pl1 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin-top: 0.26rem;
+}
+.hot-pl2{
+	float: right;
+	margin-left: 0;
+	margin-right: 0.2rem;
+}
+/* 问题结束 */
+
+/* 相关链接开始 */
+.xiangguan{
+	width: 100%;
+	height: 3.27rem;
+	clear: both;
+}
+.xiangguan main{
+	background: #fff;
+}
+.xg-title{
+	width: 100%;
+	height: 0.88rem;
+}
+.xg-shu{
+	width: 0.42rem;
+	height: 100%;
+	float: left;
+}
+.shu{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin: 0.45rem auto 0;
+}
+.xiangguan-title{
+	width: 6.6rem;
+	height: 0.88rem;
+	float: left;
+	line-height: 1.08rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #444444;
+	border-bottom: 0.01rem dashed #999;
+	box-sizing: border-box;
+}
+.xg-1{
+	width:100%;
+	height: 2rem;
+	float:left;
+}
+.hot-l-b{
+	width: 0.12rem;
+	height: 0.12rem;
+	float: left;
+	margin: 0.25rem 0.16rem 0;
+	border-radius: 50%;
+	border: 0.02rem solid #28c0ff;
+	box-sizing: border-box;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(40, 192,255, 0.7);
+}
+.hot-l-b-small{
+	width: 0.04rem;
+	height: 0.04rem;
+	border-radius: 50%;
+	background: #28c0ff;
+	margin: 0.02rem auto;
+}
+
+.xiangguan-body{
+	width: 6.3rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #666;
+	/* line-height: 0.8rem; */
+	/* border-bottom: 0.01rem dashed #999; */
+}
+.xiangguan-body a{
+	color: #1e2226;
+	font-size: 0.22rem;
+	line-height: 0.6rem;
+	color: #000;
+}
+.xiangguan-body2 a{
+	color: #01b5ff;
+}
+/* 相关链接结束 */
+/* 上下篇开始 */
+.updown{
+	clear: both;
+	width: 100%;
+	height: 1.23rem;
+	font-size: 0.24rem;
+	line-height: 0.6rem;
+	color: #000;
+}
+.updown main{
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+}
+.updown main p{
+	font-weight: bold;
+}
+.updown main p a{
+	color: #01b5ff;
+}
+/* 上下篇结束 */
+
+/* footer开始 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+}
+.join-text{
+	width: 100%;
+	text-align: center;
+	color: #666;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+}
+/* footer结束 */

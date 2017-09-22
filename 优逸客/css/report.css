@@ -1,0 +1,211 @@
+/*
+* @Author: 默然
+* @Date:   2017-07-22 14:17:54
+* @Last Modified by:   默然
+* @Last Modified time: 2017-07-22 16:02:55
+*/
+:root{
+	background: #f5f6fa;
+}
+main{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.title{
+	width: 100%;
+	height: 0.82rem;
+}
+.title{
+	line-height: 0.82rem;
+	font-size: 0.22rem;
+	color: #494747;
+}
+.title a{
+	color: #494747;
+}
+
+/* 报道开始 */
+.report-box{
+	width: 100%;
+/* 	height: 10.14rem; */
+}
+.report-box main{
+	background: #fff;
+	overflow: hidden;
+}
+.report-1{
+	width: 100%;
+	height: 3.36rem;
+	display: block;
+	margin-top: 0.34rem;
+	border-bottom: 0.05rem solid #f5f6fa;
+}
+.report-1 h2{
+	font-size: 0.28rem;
+	color: #000;
+	margin-bottom: 0.22rem;
+}
+.report-img{
+	width: 2.03rem;
+	height: 1.55rem;
+	float: left;
+	position: relative;
+}
+.report-img img{
+	width: 1.93rem;
+	height: 1.46rem;
+	position: absolute;
+}
+.report-img img:first-child{
+	right: -0.05rem;
+	top: -0.05rem;
+}
+.report-img img:last-child{
+	left: 0;
+	bottom: 0;
+}
+.report-text{
+	width: 4.68rem;
+	height: 1.4rem;
+	float: right;
+	margin-top: 0.1rem;
+	font-size: 0.24rem;
+	color: #494747;
+	line-height: 0.36rem;
+}
+.report-bot{
+	clear: both;
+	width: 100%;
+	height: 0.62rem;
+	float: left;
+	margin-top: 0.19rem;
+	border-top: 0.01rem solid #cecece;
+	border-bottom: 0.01rem solid #cecece;
+	box-sizing: border-box;
+	line-height: 0.62rem;
+	font-size: 0.2rem;
+	color: #666;
+}
+.report-bot span{
+	float: left;
+}
+.icon1{
+	width: 0.31rem;
+	height: 0.31rem;
+	margin: 0.15rem 0.1rem 0 0.1rem;
+	background: url('../img/media_icon.png') no-repeat left top;
+	background-size: 1.2rem 0.35rem;
+	float: left;
+}
+.icon2{
+	margin-left: 0.3rem;
+	background: url('../img/media_icon.png') no-repeat -0.4rem top;
+	background-size: 1.2rem 0.35rem;
+}
+.icon3{
+	margin-left: 0.3rem;
+	background: url('../img/media_icon.png') no-repeat -0.8rem top;
+	background-size: 1.2rem 0.35rem;
+}
+/* 报道结束 */
+
+/* 换页开始 */
+.huanye{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	font-size: 0.3rem;
+}
+.huanye-left{
+	display: block;
+	width: 0.56rem;
+	height: 0.29rem;
+	border: 0.01rem solid #999;
+	border-radius: 0.1rem;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.3rem;
+}
+.huanye-left div,input{
+	width: 0.48rem;
+	height: 0.23rem;
+	border: 0.01rem solid #333;
+	border-radius: 0.1rem;
+	margin:0.02rem auto;
+	line-height: 0.23rem;
+	text-align: center;
+	color: #383838;
+	font-size: 0.3rem;
+}
+.huanye-left input{
+	outline: none;
+	text-align: start;
+	margin-left: 0.03rem;
+	padding-left: 0.05rem;
+	box-sizing: border-box;
+	font-size: 0.2rem;
+	display: block;
+}
+.huanye1{
+	width: 0.32rem;
+	height: 0.32rem;
+	border-radius: 50%;
+	margin-left: 0.05rem;
+}
+.huanye1 div{
+	width: 0.24rem;
+	height: 0.24rem;
+	border-radius: 50%;
+	margin: 0.025rem auto;
+	font-size: 0.2rem;
+}
+.huanye2{
+	background: #01b5ff;
+}
+.huanye2 div{
+	border: 0.01rem solid #fff;
+	color: #fff;
+}
+.huanye-right{
+	margin-left: 0.05rem;
+}
+.huanye-left2{
+	margin-left: 0.06rem;
+	margin-right: 0.06rem;
+}
+.huanye>div{
+	height: 100%;
+	line-height: 0.7rem;
+	float: left;
+	font-size: 0.2rem;
+	margin-left: 0.05rem;	
+}
+.huanye div:nth-of-type(2){
+	margin-left: 0.2rem;
+}
+.huanye div:nth-of-type(3){
+	line-height: normal;
+	height: 0.29rem;
+}
+.huanye div:nth-of-type(4){
+	margin-left: 0rem;
+}
+.huanye a:last-child{
+	margin-left: 0.1rem;
+}
+/* 换页结束 */
+/* foot开始 */
+.join{
+	width: 100%;
+	height: 0.85rem;
+	padding-top: 0.15rem;
+}
+.join-text{
+	width: 100%;
+	text-align: center;
+	color: #666;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+}
+/* foot结束 */

@@ -1,0 +1,127 @@
+/*
+* @Author: 默然
+* @Date:   2017-07-20 18:13:43
+* @Last Modified by:   默然
+* @Last Modified time: 2017-07-20 21:21:30
+*/
+:root{
+	background: #f5f6fa;
+}
+main{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.title{
+	width: 100%;
+	height: 0.82rem;
+}
+.title{
+	line-height: 0.82rem;
+	font-size: 0.22rem;
+	color: #494747;
+}
+.title a{
+	color: #494747;
+}
+/* 概述开始 */
+.gaishu{
+	width: 100%;
+	height: 7.25rem;
+}
+.gaishu main{
+	background: #fff;
+}
+.shu-box{
+	width: 0.42rem;
+	height: 0.68rem;
+	float: left;
+}
+.shu{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin: 0.32rem auto 0;
+}
+.gaishu-box{
+	width: 6.4rem;
+	height: 100%;
+	float:left;
+}
+.gaishu-title{
+	width: 100%;
+	height: 0.68rem;
+	line-height: 0.88rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #444444;
+	border-bottom: 0.01rem dashed #999;
+	box-sizing: border-box;
+}
+.gaishu-body{
+	font-size: 0.24rem;
+	color: #666;
+	line-height: 0.4rem;
+}
+.gaishu-body p{
+	margin-top: 0.1rem;
+}
+/* 概述结束 */
+/* 企业文化开始 */
+.wenhua{
+	width: 100%;
+	height: 2.74rem;
+	margin-top: 0.1rem;
+}
+.wenhua-img-box{
+	width: 33.333333%;
+	float: left;
+}
+.wenhua-img{
+	width: 1.33rem;
+	height: 1.33rem;
+	display: block;
+	margin: 0.36rem auto 0;
+}
+.wenhua-img img{
+	width: 100%;
+	height: 100%;
+}
+/* 企业文化结束 */
+/* 公司理念开始 */
+.linian{
+	width: 100%;
+	height: 1.33rem;
+	margin-top: 0.1rem;
+}
+/* 公司理念结束 */
+/* 公司愿景开始 */
+.yuanjing{
+	width: 100%;
+	height: 1.33rem;
+	margin-top: 0.1rem;
+}
+/* 公司愿景结束 */
+/* 报名开始 */
+.join{
+	width: 100%;
+	height: 3.15rem;
+}
+.join-img{
+	width: 1.7rem;
+	height: 1.7rem;
+	display: block;
+	margin: 0.33rem auto;
+}
+.join-img img{
+	width: 100%;
+	height: 100%;
+}
+.join-text{
+	width: 100%;
+	text-align: center;
+	color: #666;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+}
+/* 报名结束 */

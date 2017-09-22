@@ -1,0 +1,127 @@
+
+:root{
+	background: #f5f6fa;
+}
+main{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.title{
+	width: 100%;
+	height: 0.82rem;
+}
+.title{
+	line-height: 0.82rem;
+	font-size: 0.22rem;
+	color: #494747;
+}
+.title a{
+	color: #494747;
+}
+
+/* 问题开始 */
+/* 概述开始 */
+.gaishu{
+	width: 100%;
+	height: 16rem;
+	margin-bottom: 0.2rem;
+}
+.gaishu main{
+	background: #fff;
+}
+.shu-box{
+	width: 0.42rem;
+	height: 0.68rem;
+	float: left;
+}
+.shu{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin: 0.32rem auto 0;
+}
+.gaishu-box{
+	width: 6.4rem;
+	height: 11rem;
+	float:left;
+}
+.gaishu-title{
+	width: 100%;
+	height: 0.68rem;
+	line-height: 0.88rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #444444;
+	border-bottom: 0.01rem dashed #999;
+	box-sizing: border-box;
+}
+.gaishu-body{
+	font-size: 0.24rem;
+	color: #666;
+	/* line-height: 0.3rem; */
+}
+.gaishu-body p{
+	/* margin-top: 0.1rem; */
+	line-height: 0.4rem;
+}
+
+.hot-img{
+	width: 100%;
+	clear: both;
+	height: 3.62rem;
+	background: #000;
+}
+.xuxian{
+	width: 6.41rem;
+	height: 0;
+	margin: 0.31rem auto 0;
+	border-top: 0.01rem dashed #999;
+}
+.hot-pinglun{
+	width: 100%;
+	height: 0.98rem;
+	clear: both;
+	background: #fff;
+	line-height: 0.9rem;
+	font-size: 0.22rem;
+	font-weight: bold;
+}
+.hot-pinglun p{
+	float: left;
+	margin-left: 0.2rem;
+}
+.hot-pl1{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+	float: left;
+	margin-left: 0.2rem;
+}
+.hot-pl1 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin-top: 0.26rem;
+}
+.hot-pl2{
+	float: right;
+	margin-left: 0;
+	margin-right: 0.2rem;
+}
+/* 问题结束 */
+
+/* footer开始 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+}
+.join-text{
+	width: 100%;
+	text-align: center;
+	color: #666;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+}
+/* footer结束 */

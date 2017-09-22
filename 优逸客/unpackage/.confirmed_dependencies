@@ -1,0 +1,35 @@
+{
+  "index.html": {
+    "resources": [
+      "img/server_10.png",
+      "img/server_05.png",
+      "img/banner.png",
+      "css/main.css",
+      "img/unique_19.png",
+      "img/unique2_21.png",
+      "img/unique2_09.png",
+      "img/server_12.png",
+      "js/rem.js",
+      "img/unique2_20.png",
+      "img/server_14.png",
+      "img/server_03.png",
+      "img/unique2_07.png",
+      "img/unique2_22.png",
+      "iconfont/iconfont.woff",
+      "img/logo.png",
+      "img/unique2_11.png",
+      "img/unique2_05.png",
+      "iconfont/iconfont.css"
+    ],
+    "refer": []
+  },
+  "gaoxin.html": {
+    "resources": [
+      "img/banner.png",
+      "css/main.css",
+      "img/logo.png",
+      "js/rem.js",
+      "css/gaoxin.css"
+    ]
+  }
+}

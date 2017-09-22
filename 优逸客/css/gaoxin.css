@@ -1,0 +1,175 @@
+/*
+* @Author: 默然
+* @Date:   2017-07-20 22:06:38
+* @Last Modified by:   默然
+* @Last Modified time: 2017-07-21 09:17:38
+*/
+
+:root{
+	background: #f5f6fa;
+}
+main{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+.title{
+	width: 100%;
+	height: 0.82rem;
+}
+.title{
+	line-height: 0.82rem;
+	font-size: 0.22rem;
+	color: #494747;
+}
+.title a{
+	color: #494747;
+}
+
+/* 成员开始 */
+.info{
+	width: 100%;
+	height: 1.85rem;
+	margin-bottom: 0.1rem;
+}
+.info main{
+	background: #fff;
+}
+.info-img{
+	width: 1.93rem;
+	height: 1.45rem;
+	float: left;
+	background: #c8c8c8;
+	margin: 0.2rem 0.3rem 0 0.2rem;
+}
+.info-intr{
+	height: 100%;
+	width: 60%;
+	float: left;
+	/* background: red; */
+	font-size: 0.26rem;
+	line-height: 0.43rem;
+}
+.info-intr span{
+	color: #000;
+	display: inline-block;
+}
+.info-intr span:first-of-type{
+	margin-top: 0.32rem;
+	font-weight: 600;
+}
+.info-intr span:nth-of-type(2){
+	font-size: 0.14rem;
+	line-height: normal;
+}
+.heng{
+	width: 1.27rem;
+	height: 0;
+	border-bottom:0.02rem dotted #444; 
+}
+.info-intr span:nth-of-type(3){
+	color: #94d43b;
+}
+.info-intr span:last-of-type{
+	color: #444444;
+}
+/* 成员结束 */
+/* 换页开始 */
+.huanye{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	font-size: 0.3rem;
+}
+.huanye-left{
+	display: block;
+	width: 0.56rem;
+	height: 0.29rem;
+	border: 0.01rem solid #999;
+	border-radius: 0.1rem;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.3rem;
+}
+.huanye-left div,input{
+	width: 0.48rem;
+	height: 0.23rem;
+	border: 0.01rem solid #333;
+	border-radius: 0.1rem;
+	margin:0.02rem auto;
+	line-height: 0.23rem;
+	text-align: center;
+	color: #383838;
+	font-size: 0.3rem;
+}
+.huanye-left input{
+	outline: none;
+	text-align: start;
+	margin-left: 0.03rem;
+	padding-left: 0.05rem;
+	box-sizing: border-box;
+	font-size: 0.2rem;
+	display: block;
+}
+.huanye1{
+	width: 0.32rem;
+	height: 0.32rem;
+	border-radius: 50%;
+	margin-left: 0.05rem;
+}
+.huanye1 div{
+	width: 0.24rem;
+	height: 0.24rem;
+	border-radius: 50%;
+	margin: 0.025rem auto;
+	font-size: 0.2rem;
+}
+.huanye2{
+	background: #01b5ff;
+}
+.huanye2 div{
+	border: 0.01rem solid #fff;
+	color: #fff;
+}
+.huanye-right{
+	margin-left: 0.05rem;
+}
+.huanye-left2{
+	margin-left: 0.06rem;
+	margin-right: 0.06rem;
+}
+.huanye>div{
+	height: 100%;
+	line-height: 0.7rem;
+	float: left;
+	font-size: 0.2rem;
+	margin-left: 0.05rem;	
+}
+.huanye div:nth-of-type(2){
+	margin-left: 0.2rem;
+}
+.huanye div:nth-of-type(3){
+	line-height: normal;
+	height: 0.29rem;
+}
+.huanye div:nth-of-type(4){
+	margin-left: 0rem;
+}
+.huanye a:last-child{
+	margin-left: 0.1rem;
+}
+/* 换页结束 */
+/* footer开始 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+}
+.join-text{
+	width: 100%;
+	text-align: center;
+	color: #666;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+	margin-top: 0.2rem;
+}
+/* footer结束 */

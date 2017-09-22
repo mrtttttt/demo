@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 355470 */
+  src: url('http://at.alicdn.com/t/font_8nh1lbnd6zzx5hfr.eot');
+  src: url('http://at.alicdn.com/t/font_8nh1lbnd6zzx5hfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_8nh1lbnd6zzx5hfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_8nh1lbnd6zzx5hfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_8nh1lbnd6zzx5hfr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 7.5rem;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+#head{
+	width:7.5rem;
+	height: 0.92rem;
+}
+.head-mid{
+	width: 2.04rem;
+	height: 100%;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 0.36rem;
+	line-height: 0.92rem;
+}
+.head-img{
+	width: 0.72rem;
+	height: 0.67rem;
+	float: left;
+	margin-top: 0.12rem;
+	margin-right: 0.15rem;
+}
+.head-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 分类开始 */
+.fenlei{
+	width: 100%;
+	height: 4.81rem;
+	background: #f2f3f7;
+}
+.fenlei1{
+	width: 25%;
+	height: 50%;
+	float: left;
+	text-align: center;
+	font-size: 0.2rem;
+}
+.fenlei1 a{
+	width: 1.55rem;
+	height: 1.55rem;
+	border-radius: 0.25rem;
+	display: inline-block;
+	margin-top: 0.22rem;
+	margin-bottom: 0.1rem;
+}
+.fenlei1 a img{
+	width: 100%;
+	height: 100%;
+}
+/* 分类结束 */
+/* 服务体系开始 */
+.server{
+	width: 100%;
+	height: 4.21rem;
+}
+.server-title{
+	width: 100%;
+	height: 0.63rem;
+	text-align: center;
+	line-height: 0.63rem;
+	font-size: 0.22rem;
+	color: #0377bc;
+}
+.server-mid{
+	width: 100%;
+	height: 2.2rem;
+	border-top: 0.01rem solid #e8e8e8;
+	border-bottom: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.server-m-l{
+	width: 50%;
+	height: 100%;
+	border-left: 0.01rem solid #e8e8e8;
+	float: left;
+	box-sizing: border-box;
+}
+.server-text {
+	width: 1.85rem;
+	height: 100%;
+	float: left;
+}
+.server-text p{
+	font-size: 0.25rem;
+	color: #000;
+	margin-top: 0.38rem;
+	margin-left: 0.16rem;
+	font-weight: bold;
+}
+.server-text span{
+	font-size: 0.16rem;
+	color: #999;	
+	float: left;
+	margin-left: 0.16rem;
+	line-height: 0.52rem;
+}
+.server-img-box{
+	width: 1.5rem;
+	height: 1.4rem;
+	float: right;
+	margin-top: 0.31rem;
+	margin-right: 0.2rem;
+}
+.server-img-box img{
+	width: 100%;
+	height: 100%;
+}
+.server-bot{
+	width: 100%;
+	height: 1.38rem;
+}
+.server-b-1{
+	width: 33.333333%;
+	height: 100%;
+	border-left: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+	float: left;
+	display: block;
+}
+.server-b-img{
+	width: 0.71rem;
+	height: 0.77rem;
+	float: left;
+	margin-top: 0.29rem;
+	margin-left: 0.15rem;
+}
+.server-b-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.server-b-text{
+	width: 1.6rem;
+	height: 100%;
+	float: right;
+}
+.server-b-text p{
+	font-size: 0.25rem;
+	color: #000;
+	margin-top: 0.38rem;
+	margin-left: 0.16rem;
+	font-weight: bold;
+}
+.server-b-text span{
+	font-size: 0.16rem;
+	color: #999;	
+	float: left;
+	margin-left: 0.16rem;
+	line-height: 0.52rem;
+}
+/* 服务体系结束 */
+/* footer开始 */
+footer{
+	width: 100%;
+	height: 1.41rem;
+	background: #f5f6fa;
+}
+.foot-mid{
+	width: 100%;
+	height: 0.8rem;
+	float: left;
+	margin-top: 0.21rem;
+	background: #fff;
+}
+.foot-l{
+	width: 30%;
+	text-align: center;
+	height: 100%;
+	line-height: 0.8rem;
+	color: #000;
+	font-size: 0.2rem;
+	float: left;
+	display: block;
+}
+.foot-l span{
+	margin-left: 0.06rem;
+}
+.foot-m{
+	width: 2.37rem;
+	margin-left: 0.33rem;
+	background: #ff7e00;
+	color: #fff;
+	box-shadow: 0 0 0.2rem 0.05rem rgba(253, 156, 61, 0.7);
+	border-radius: 0.05rem;
+}
+.foot-r{
+	float: right;
+}
+/* footer结束 */
