@@ -1,0 +1,56 @@
+.pet-hid{
+	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pet-hid>div{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	line-height: 64px;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+}
+
+
+.hotPet{
+	text-align: center;
+}
+.hotPet main{
+	position: relative;
+	height: 400px;
+}
+.hotPet main>p{
+	color: #4E2A1A;line-height: 60px;font-size: 30px;font-weight: 400;
+}
+.pUnder{
+	width: 50px;margin: 0 auto;background: #60B5FE;height: 2px;
+}
+.hotUl{
+	display: inline-block;margin: 20px auto 0;
+}
+.hotUl>li{
+	cursor: pointer;float: left;margin:0 15px;padding: 7px 0;transition: .5s;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.hotUl .lineLi{
+	border-top: 1px solid #FFAF36;box-sizing: border-box;
+	border-bottom: 1px solid #FFAF36;color:#60B5FE;
+}
+.hotUl>li:hover{
+	color: #60B5FE;
+}
+
+.hd-body{
+	position: absolute;
+	top: 130px;left: 0;
+}
+
+.hd-body>div{
+	transition: 1.5s;opacity: 0;transform: scale(0);
+}
+.hd-bodyOne>div{
+	opacity: 1;transform: scale(1);
+}

@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+	font-size: 0.02rem;
+}
+::-webkit-input-placeholder{
+	color: #818794;
+}
+body{
+	background: #EDEDED;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #e7e7e7;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0.2rem 0.3rem;
+	box-sizing: border-box;
+}
+header>.search{
+	width: 100%;
+	height: 0.48rem;
+	border-radius: 1rem;
+	border: 0.01rem solid #e0e0e0;
+	outline: none;
+	font-size: 0.02rem;
+	background: none;
+	padding-left: 0.3rem;
+	box-sizing: border-box;
+}
+dl{
+	width: 100%;
+	padding-top: 1.48rem;
+}
+dl>dt{
+	margin: 0.2rem 0.3rem;
+	height:0.45rem;
+	width: 0.45rem;
+	border-radius: 50%;
+	background: #FEBF23;
+	color: #fff;
+	line-height: 0.45rem;
+	text-align: center;
+}
+dl>dd{
+	height: 0.6rem;
+	line-height: 0.6rem;
+	padding-left: 0.6rem;
+	margin-top: 0.2rem;
+}
+dl>dd>a{
+	color: #1E2D41;
+	font-size: 0.3rem;
+}
+dl>dd>div{
+	float: right;
+	color: #1E2D41;
+	margin-right: 0.8rem;
+	background: #ccc;
+	border-radius: 0.25rem;
+	width:0;
+	overflow: hidden;
+	height: 100%;
+	text-align: center;
+	color: #1E2D41;
+	transition: .5s;
+}
+.aside{
+	/*width: 0.3rem;*/
+	position: fixed;
+	top: 50%;
+	text-align: center;
+	right: 0.3rem;
+	color: #1E2D41;
+}
+.aside>li{
+	padding: 0.07rem;
+	
+}
+.tip{
+	width: 100%;
+	height: 0.6rem;
+	position: fixed;
+	top: 0.88rem;
+	left: 0;
+	/*margin-top: 0.2rem;*/
+	background: #FEBF23;
+	color: #fff;
+	line-height: 0.6rem;
+	padding-left: 0.45rem;
+	box-sizing: border-box;
+}
+.add,.remove,.submit{
+	width: 1rem;
+	height:1rem;
+	background: #f7f7f7;
+	border-radius: 50%;
+	line-height: 50px;
+	text-align: center;
+	position: fixed;
+	right: 0.2rem;
+	bottom: 0.2rem;
+}
+.submit{
+	right: 1.4rem;
+}
+.hid{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #EDEDED;
+	display: none;
+}
+
+h1{
+	margin: 0.5rem 0 0 0.3rem;
+	font-size: 0.3rem;
+}
+form{
+	text-align: center;
+}
+form input{
+	width: 60%;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	margin-top: 0.3rem;
+	border: 1px solid #ccc;
+}

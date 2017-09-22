@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			@font-face {
+			  font-family: 'iconfont';  /* project id 400725 */
+			  src: url('http://at.alicdn.com/t/font_400725_cvxl156kapehr529.eot');
+			  src: url('http://at.alicdn.com/t/font_400725_cvxl156kapehr529.eot?#iefix') format('embedded-opentype'),
+			  url('http://at.alicdn.com/t/font_400725_cvxl156kapehr529.woff') format('woff'),
+			  url('http://at.alicdn.com/t/font_400725_cvxl156kapehr529.ttf') format('truetype'),
+			  url('http://at.alicdn.com/t/font_400725_cvxl156kapehr529.svg#iconfont') format('svg');
+			}
+			.iconfont{
+			  font-family: 'iconfont';  /* project id 400725 */
+			}
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			body{
+				background: #13110F;
+			}
+			.main{
+				width: 840px;
+				margin: 100px auto 0;
+				height: auto;
+				overflow: hidden;
+			}
+			.mainL{
+				float: left;
+			}
+			.imgbox{
+				width: 260px;
+				height: 260px;
+				margin-top: 50px;
+				border-radius: 50%;
+				overflow: hidden;
+			}
+			.imgbox>img{
+				width: 100%;
+				height: 100%;
+			}
+			.mainR{
+				width: 460px;
+				float: right;
+				color: #fff;
+				line-height: 30px;
+			}
+			.song{
+				line-height: 35px;
+			}
+			.lyrics{
+				color: #9C9C9C;
+				height: 300px;
+				overflow: hidden;
+			}
+			.lyrics>li{
+				line-height: 30px;
+			}
+			
+			
+			
+			.bottom{
+				width: 100%;
+				color: #fff;
+				font-size: 35px;
+				height: 100px;
+				box-shadow: 0 -1px 20px 1px rgba(255,255,255,0.2);
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				padding: 20px 120px 0;
+				box-sizing: border-box;
+			}
+			.bottom>div{
+				float: left;
+				margin-right: 20px;
+			}
+			
+			
+			.middle{
+				font-size: 14px;
+				width: 500px;
+				padding-top: 10px;
+				margin-left: 30px;
+			}
+			.middle>div{
+				float: left;
+			}
+			.middle>.img{
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+				overflow: hidden;
+				margin-top: -10px;
+			}
+			.img>img{
+				width: 100%;
+			}
+			.mSong{
+				float: left;
+				margin-left: 40px;
+				color: #B8B7B7;
+			}
+			.middle .time{
+				float: right;
+				color: #6C6B6B;
+			}
+			.process,.volume{
+				width: 400px;
+				height: 2px;
+				position: relative;
+				background: #3A3A39;
+				margin-top: 10px;
+				margin-left: 40px;
+			}
+			.processBar,.volumeBar{
+				width: 0;
+				height: 100%;
+				position: absolute;
+				background: #12A5F0;
+				top: 0;
+				left: 0;
+			}
+			/*音量*/
+			.volume{
+				width: 100px;
+				margin-left: 0;
+				margin-top: 25px;
+			}
+			.bottom>p{
+				font-size: 30px;
+				margin: 4px 6px 0 10px;
+				margin-top: 4px;
+				margin-right: 15px;
+				color: #B8B7B7;
+				float: left;
+			}
+			.volumeBar{
+				width: 50%;
+			}
+			.volumeBtn{
+				width: 10px;
+				height: 10px;
+				background: #12A5F0;
+				border-radius: 50%;
+				position: absolute;
+				left: 45px;
+				top: -4px;
+			}
+			
+			.model{
+				width: 50px;
+				height: 30px;
+				font-size: 20px;
+				line-height: 30px;
+				text-align: center;
+				float: left;
+				position: relative;
+				margin-top: 10px;
+				margin-right: 0;
+				margin-left: 10px;
+			}
+			.model>div{
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.model>.random{
+				top: -30px;
+			}
+			.over{
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+		<audio src=""></audio>
+		<div class="main">
+			<div class="mainL">
+				<div class="imgbox">
+					<img src="" alt="" />
+				</div>
+			</div>
+			<div class="mainR">
+				<h2 class="song"></h2>
+				<h4 class="songer"></h4>
+				<ul class="lyrics"></ul>
+			</div>
+		</div>
+		<div class="bottom iconfont">
+			<div class="beforeSong">&#xe644;</div>
+			<div class="pause">&#xe678;</div>
+			<div class="afterSong">&#xe658;</div>
+			<div class="middle">
+				<div class="img">
+					<img src="" alt="" />
+				</div>
+				<div class="mSong"></div>
+				<div class="time">
+					<span class="current"></span> /
+					<span class="duration"></span>
+				</div>
+				<div class="process">
+					<div class="processBar"></div>
+				</div>
+			</div>
+			<p>&#xe609;</p>
+			<div class="volume iconfont">
+				<div class="volumeBar"></div>
+				<div class="volumeBtn"></div>
+			</div>
+			<div class="model over">
+				<div class="loop iconfont">&#xe630;</div>
+				<div class="random iconfont">&#xe7b8;</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/database.js"></script>
+<script src="js/player.js"></script>

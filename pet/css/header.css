@@ -1,0 +1,269 @@
+html,body,div,ul,li,p,span,h1,h2,h3,h4,h5,h6,a,img,header,table,tr,td{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #ededed;
+}
+header{
+	width: 100%;
+	height: 110px;
+}
+main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo{
+	width: 267px;
+	height: 61px;
+	float: left;
+	margin-top: 25px;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+header .search{
+	width: 235px;
+	height:30px;
+	float:right;
+	margin-top: 50px;	
+	margin-right: 20px;
+	position: relative;
+}
+.search input{
+	width: 235px;
+	height: 28px;
+	border: 1px solid #4e2a1a;
+	outline: none;
+	border-radius: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+}
+.search button{
+	background: #4e2a1a;
+	width: 35px;
+	height:28px;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*导航*/
+nav{
+	width: 100%;
+	height: 50px;
+	background: #4E2A1A;
+}
+nav ul>li{
+	width: 106px;
+	height: 50px;
+	margin-right: 10px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+nav ul>li>a{
+	display: block;
+	color: #fff;
+}
+
+
+.pet{
+	width: 100%;
+	height: 300px;
+	background: url(../img/hl.jpg) no-repeat center;
+}
+.pet img{
+	width: 100%;
+	height: 100%;
+}
+
+nav ul>li>a:hover{
+	background: #fff;
+	color: #000;
+}
+nav ul>li>.fff{
+	background: #fff;
+	color: #000;
+}
+#titleHead{
+	line-height:60px;
+	font-size: 24px;margin-left: 10px;color: #666;
+}
+
+/*固定导航栏*/
+.navList{
+	width: 100%;overflow: hidden;transition: .5s;
+	height: 0;position: fixed;top: 0;left: 0;
+	background-image: linear-gradient("#fff","#f1f1f1");
+	box-shadow: 0 2px 4px rgba(0,0,0,0.04);box-sizing: border-box;
+	border-bottom: 1px solid #dadada; background: #F7F7F7;z-index: 99;
+}
+.navList ul{
+	width: auto;height: 100%;float: left;
+}
+.navList ul li{
+	line-height: 60px;
+	padding: 0 10px;float: left;font-size: 14px;
+}
+.navList ul li:first-of-type{
+	padding-left: 0;
+}
+.navList ul li a{
+	color: #666;
+}
+.navList ul li a:hover{
+	color: #6B95EA;
+}
+.navList main>p{
+	float: right;
+	line-height: 60px;font-size: 12px;color: #666;cursor: pointer;
+}
+.navList main>p:hover{
+	color: #6B95EA;
+}
+.navList main>p:last-of-type{
+	margin-right: 20px;
+}
+
+
+
+
+.two>button{
+	width: 30px;
+	height: 30px;background: #fff;cursor: pointer;
+	border-radius: 50%;position: absolute;top: -15px;right: -15px;
+	color: #D4D4D4;font-size: 22px;border: 1px solid #D4D4D4;outline: none;
+}
+.two>button:hover{
+	color: orangered;
+}
+.two{
+	position: fixed;display: none;
+	top: 0;bottom: 0;left: 0;right: 0;margin: auto;
+	background: #fff;
+	border: 1px solid #eee;z-index: 99;
+    width: 570px;
+    height: 550px;
+    text-align: center;
+}
+.two .two_top{
+    text-align: center;
+}
+.two .two_top h2{
+    margin: 50px 0 30px;
+}
+.two .two_top a{
+    display: inline-block;
+}
+.two .img1{
+    width: 60px;
+    height: 60px;
+    transition: all 0.7s;         /*用0.7s进行变化*/
+    margin-left: 20px;
+}
+.two .img1:hover{
+    transform: scale(1.2);          /*放大1.2倍*/
+}
+.two .or{
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.two .or span{
+    width: 8%;
+    display: inline-block;
+}
+.two .or_left,.or_right{
+    width:35%;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    top: -4px;
+    left: 0;
+}
+.two .infooo{
+    padding: 30px 0;
+    font-weight: 500;
+    font-size: 14px;
+    color:#666666;
+}
+.two form .shuru{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #555;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    padding: 4px 6px;
+
+}
+.two form .forget .lab{
+    font-size: 14px;
+    margin-bottom: 8px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.two form .forpass{
+    margin-left: 25px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #31b0d5;
+}
+.two form .rege{
+	margin-left: 0;cursor: pointer;
+}
+.two form .forpass:hover{
+    color: #7f0a0c;
+}
+.two form .but{
+    width: 95px;
+    height: 44px;
+    line-height: 44px;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: center;
+    background: #0088cc;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #fff;
+    margin-top: 25px;
+    transition: all 0.5s;
+}
+.two form .but:hover{
+    transform: scale(1.1);
+}
+.three{
+    width: 570px;
+    height: 550px;display: none;
+}
+.three form .term{
+    text-decoration: none;
+    color: #31b0d5;
+    font-size: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.three form .term:hover{
+    color: #7f0a0c;
+}

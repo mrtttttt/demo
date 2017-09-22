@@ -1,0 +1,111 @@
+.hotCare{
+	width: 100%;
+	height: 460px;
+}
+.hotCare main{
+	background: #fff;
+}
+.hotgroom{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.hotG{
+	width: 572px;
+	overflow: hidden;
+	margin-left: 30px;
+}
+.hotG>li{
+	width: 515px;
+	height: 335px;
+	margin: 20px 0 0 0;
+	position: relative;
+	float: left;
+}
+.hotG>li>img{
+	width: 100%;
+}
+.petText{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	font-size: 12px;
+}
+.hotGtext{
+	width: 560px;
+	height: auto;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 15px 10px 0;
+	font-size: 14px;	
+}
+.hotCtext>li{
+	line-height: 35px;
+	border-bottom: 1px dotted #DBDBDB;
+}
+.hotCtext>li:last-of-type{
+	border-bottom: none;
+}
+.hotCtext>li>a{
+	display: block;
+	color: #333;
+}
+.hotCtext>li>a:hover{
+	color: #FF9D0B;
+}
+.hotCtext>li>a>span{
+	float: right;
+}
+
+
+
+
+.example{
+	width: 100%;
+	height: 260px;
+	margin: 10px 0;
+	overflow: hidden;
+}
+.example main{
+	background: #fff;
+	padding-bottom: 20px;
+}
+.scroll{
+	width: 100%;
+	height: 204px;
+	/*height: auto;*/
+	overflow: hidden;
+	position: relative;
+}
+.example ul{
+	height: auto;
+	width: 4000px;
+	position: absolute;
+	top: 0;left: 0;
+}
+.example p{
+	margin-left: 8px;
+	line-height: 40px;
+}
+.example ul>li{
+	width: 334px;
+	height: 204px;
+	float: left;
+	margin: 0 33px;
+}
+.example ul>li>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0;
+}
+.example ul>li>a>img{
+	width: 100%;
+}
